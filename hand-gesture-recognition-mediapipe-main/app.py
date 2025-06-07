@@ -556,11 +556,11 @@ def draw_info_text(image, brect, handedness, hand_sign_text,
                        cv.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 1, cv.LINE_AA)
             print("Alert: Sequence detected!")  # Trigger alert
             sid = send_sms(
-                to_number='+919541411312',
+                to_number='+91',
                 message_body='Distress signal',
-                account_sid='ACccffa135c37f6579f82c168d1ebf8885',
-                auth_token='ea7bd3dac8a36223cb2d5a1775df005e',
-                messaging_service_sid='MG15501e2a8fc426182192b15ec0eaa6df'
+                account_sid='ACa',
+                auth_token='ea',
+                messaging_service_sid=''
             )
             print("Message SID:", sid)
             sequence_index = 0
